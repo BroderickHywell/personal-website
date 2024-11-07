@@ -27,6 +27,8 @@ body{
 .main-content{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -99,6 +101,7 @@ img {
     margin: 10px;
 }
 .contact-me-window{
+    display: none;
     border-left: 3px solid rgb(228, 228, 228);
     border-top: 3px solid rgb(228, 228, 228);
     border-bottom: 3px solid grey;
@@ -109,6 +112,7 @@ img {
     background-color: rgb(175, 175, 175);
 }
 .technical-skills-window{
+    display: none;
     border-left: 3px solid rgb(228, 228, 228);
     border-top: 3px solid rgb(228, 228, 228);
     border-bottom: 3px solid grey;
@@ -118,6 +122,93 @@ img {
     height: 200px;
     background-color: rgb(175, 175, 175);
 }
+
+.projects-window{
+    border-left: 3px solid rgb(228, 228, 228);
+    border-top: 3px solid rgb(228, 228, 228);
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(175, 175, 175);
+}
+
+h2{
+    margin: 0;
+}
+
+.project-tech-span{
+    background-color: rgb(232, 232, 232);
+    padding: 2px;
+    border-radius: 5px;
+}
+.tech-used-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projects-content{
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+.project-explorer{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 265px;
+    background-color: white;
+    border: 2px solid black;
+}
+.project-display{
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.project-img{
+    width: 300px;
+    height: auto;
+    border-left: 3px solid rgb(228, 228, 228);
+    border-top: 3px solid rgb(228, 228, 228);
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.folder-icon{
+    width: 20px;
+    margin-right: 5px;
+    height: auto;
+}
+
+.project-name-span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+.project-name-span:hover{
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+#readme-generator{
+    display: none;
+}
+
+#password-generator-folder{
+    background-color: #cecece;
+}
+
 
 .technical-skills-content{
     width: 400px;
