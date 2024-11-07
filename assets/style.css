@@ -96,6 +96,7 @@ img {
     width: 500px;
     height: 300px;
     background-color: rgb(175, 175, 175);
+    margin: 10px;
 }
 .contact-me-window{
     border-left: 3px solid rgb(228, 228, 228);
@@ -108,6 +109,26 @@ img {
     background-color: rgb(175, 175, 175);
 }
 
+.contact-me-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-me-icons {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
 
 .window-top{
     display: flex;
