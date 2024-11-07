@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     border-top: 2px solid grey;
     bottom: 0;
     left: 0;
@@ -103,10 +103,30 @@ img {
     border-top: 3px solid rgb(228, 228, 228);
     border-bottom: 3px solid grey;
     border-right: 3px solid grey;
-    margin-top: 50px;
+    margin: 20px;
     width: 400px;
     height: 200px;
     background-color: rgb(175, 175, 175);
+}
+.technical-skills-window{
+    border-left: 3px solid rgb(228, 228, 228);
+    border-top: 3px solid rgb(228, 228, 228);
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(175, 175, 175);
+}
+
+.technical-skills-content{
+    width: 400px;
+    height: 175px;
+    overflow-y: auto;
+}
+
+.technical-skills-span{
+    margin-left: 10px;
 }
 
 .contact-me-content{
@@ -116,12 +136,39 @@ img {
     align-items: center;
 }
 
-.icon-div{
+.technologies{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech-icon-group{
+    margin: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.tech-icon{
+    width: 30px;
+    height: auto;
+
+}
+
+.icon-span{
+    text-decoration: none;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+}
+.icon-span:hover{
+    cursor: pointer;
 }
 
 .contact-me-icons {
@@ -165,3 +212,25 @@ img {
 .window-top-icon:hover{
     cursor: pointer;
 }
+
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(159, 159, 159);
+  }
