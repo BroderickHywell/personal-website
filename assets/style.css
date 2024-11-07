@@ -1,0 +1,42 @@
+html {
+    cursor: url('./icons/mouse_ms-1.png'), auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(175, 175, 175);
+}
+nav:hover{
+    cursor: url('./icons/mouse_ms-1.png'), auto;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-icon:hover{
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
