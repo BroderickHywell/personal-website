@@ -11,31 +11,38 @@
         <div></div>
 
         <div class="icons">
-            <a class="nav-icon" href="#">
+            <a class="nav-icon" href="#" id="technical-skills-icon">
                 <img src="assets/icons/computer-4.png"/>
                 <span>My Skills</span>
             </a>
     
             <a class="nav-icon" href="#">
                 <img src="assets/icons/directory_open_file_mydocs-4.png"/>
-                <span>My projects</span>
+                <span>My Projects</span>
             </a>
     
-            <a class="nav-icon" href="#">
+            <a class="nav-icon" href="#" id="contact-me-icon">
                 <img src="assets/icons/modem-4.png"/>
-                <span>Contact me</span>
+                <span>Contact Me</span>
+            </a>
+
+            <a class="nav-icon" href="#" id="about-me-icon">
+                <img src="assets/icons/notepad_file-2.png"/>
+                <span>About Me</span>
             </a>
         </div>
     </nav>
     <div class="nav-space"></div>
 
     <div class="main-content">
-        <div class="about-me-window">
+
+        <!-- about me tab -->
+        <div class="about-me-window" id="about-me-window">
             <div class="window-top">
                 <span>About Me</span>
                 <div class="window-top-icons">
                     <div class="window-top-icon">?</div>
-                    <div class="window-top-icon">X</div>
+                    <div class="window-top-icon" id="close-about-me">X</div>
                 </div>
             </div>
     
@@ -44,7 +51,7 @@
                 <div>
                     <h3>Broderick</h3>
                     <span>
-                        Hello! I am Broderick, an engineer, and a man of science. Since I was a small lad, I have loved to design and build
+                        Hello! I am Broderick, an engineer. Since I was a small lad, I have loved to design and build
                         things. From computers, robotics, to software, I have always enjoyed creating stuff and learning new things. I graduated
                         the University of Utahs software engineer bootcamp and now I am searching for a career in the field. Some fun facts about
                         me; I have my own method of solving a 3x3x3 rubiks cube, I have very white hair despite not being a grandpa, and I am a collector
@@ -55,29 +62,138 @@
         </div>
     
         <!-- contact me tab -->
-        <div class="contact-me-window">
+        <div class="contact-me-window" id="contact-me-window">
             <div class="window-top">
                 <span>Contact Me</span>
                 <div class="window-top-icons">
                     <div class="window-top-icon">?</div>
-                    <div class="window-top-icon">X</div>
+                    <div class="window-top-icon" id="close-contact-me">X</div>
                 </div>
             </div>
     
             <div class="contact-me-content">
                 <span>If you would like to collaborate on projects, talk, or hire me. Feel free through any of these means below.</span>
                 <div class="contact-me-icons">
-                    <div class="icon-div">
+                    <a class="icon-span" href="https://github.com/BroderickHywell" target="_blank">
                         <img src="assets/icons/github.png"/>
                         <span>github</span>
-                    </div>
-                    <div class="icon-div">
+                    </a>
+                    <a class="icon-span" href="https://www.linkedin.com/in/broderickhywell/" target="_blank">
                         <img src="assets/icons/linkedin.png"/>
                         <span>linkedin</span>
-                    </div>
-                    <div class="icon-div">
+                    </a>
+                    <a class="icon-span">
                         <img src="assets/icons/mail.png"/>
                         <span>email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- technical skills -->
+    <div class="technical-skills-window" id="technical-skills-window">
+        <div class="window-top">
+            <span>Technical Skills</span>
+            <div class="window-top-icons">
+                <div class="window-top-icon">?</div>
+                <div class="window-top-icon" id="close-technical-skills">X</div>
+            </div>
+        </div>
+
+        <div class="technical-skills-content">
+            <div>
+                <span class="technical-skills-span">I have worked in these technologies</span>
+                <div class="technologies">
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/javscript.png" class="tech-icon"/>
+                        <span>javascript</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/css.png" class="tech-icon"/>
+                        <span>css</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/html.png" class="tech-icon"/>
+                        <span>html</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/sql.png" class="tech-icon"/>
+                        <span>sql</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/java.png" class="tech-icon"/>
+                        <span>java</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/mysql.png" class="tech-icon"/>
+                        <span>mysql</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/react.png" class="tech-icon"/>
+                        <span>react</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/git.png" class="tech-icon"/>
+                        <span>git</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/mongo.png" class="tech-icon"/>
+                        <span>mongodb</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/python.png" class="tech-icon"/>
+                        <span>python</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/figma.png" class="tech-icon"/>
+                        <span>figma</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/node.png" class="tech-icon"/>
+                        <span>node.js</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/express-js.png" class="tech-icon"/>
+                        <span>express.js</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/vscode.webp" class="tech-icon"/>
+                        <span>vscode</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/c++.png" class="tech-icon"/>
+                        <span>c++</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/arduino.png" class="tech-icon"/>
+                        <span>arduino</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/php.png" class="tech-icon"/>
+                        <span>php</span>
+                    </div>
+
+                    <div class="tech-icon-group">
+                        <img src="assets/icons/adobeill.png" class="tech-icon"/>
+                        <span>adobe</span>
+                        <span>illustrator</span>
                     </div>
                 </div>
             </div>
@@ -88,5 +204,7 @@
     <div class="footer">
         <span>created by Broderick</span>
     </div>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
