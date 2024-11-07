@@ -1,4 +1,3 @@
 ## credits
-https://www.flaticon.com/free-icons/retro
 https://www.freepik.com/
-https://creativemarket.com/eucalyp
+https://www.deviantart.com/panfrieddupa/art/Github-Pixel-Logo-for-Personal-Portfolio-923686063
