@@ -31,6 +31,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
 }
 
 .about-me-content{
@@ -101,6 +103,8 @@ img {
     height: 300px;
     background-color: rgb(175, 175, 175);
     margin: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 .contact-me-window{
     display: none;
@@ -320,22 +324,22 @@ h2{
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
   /* Track */
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #888;
-  }
+}
   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #555;
-  }
+}
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: rgb(159, 159, 159);
-  }
+}
 
 /* breakpoints */
 @media only screen and (max-width: 600px) {
@@ -348,7 +352,7 @@ h2{
         margin-left: 100px;
     }
     .technical-skills-window{
-        margin-left: 100px;
+        margin-left: 150px;
     }
     .projects-window{
         margin-left: 30px;
@@ -362,5 +366,19 @@ h2{
     }
     .about-me-header{
         margin: 0;
+    }
+}
+
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 300px) {
+    .technical-skills-window{
+        margin-left: 250px;
+    }
+}
+
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 500px) {
+    .projects-window{
+        margin-left: 140px;
     }
 }
