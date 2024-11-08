@@ -336,3 +336,31 @@ h2{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(159, 159, 159);
   }
+
+/* breakpoints */
+@media only screen and (max-width: 600px) {
+    .about-me-window {
+        width: 400px;
+        height: 200px;
+        margin-left: 100px;
+    }
+    .contact-me-window{
+        margin-left: 100px;
+    }
+    .technical-skills-window{
+        margin-left: 100px;
+    }
+    .projects-window{
+        margin-left: 30px;
+    }
+    .me-img{
+        width: 80px;
+        height: 140px;
+    }
+    .about-me-span{
+        font-size: 10px;
+    }
+    .about-me-header{
+        margin: 0;
+    }
+}
