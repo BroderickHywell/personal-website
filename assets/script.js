@@ -1,11 +1,14 @@
+// function that displays a window to the page
 function displayWindow(windowToDisplay){
     document.getElementById(`${windowToDisplay}`).style.display = 'inline'
 }
 
+// removes a window thats "x" was clicked
 function removeWindow(windowToRemove){
     document.getElementById(`${windowToRemove}`).style.display = 'none'
 }
 
+// function that displays the project selected in the project display window
 function displayProject(id){
     if(id === 0){
         document.getElementById('readme-generator').style.display = 'none'
